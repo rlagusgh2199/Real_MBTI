@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real MBTI | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <header class="bg-gradient-to-r from-purple-500 to-pink-400 text-white py-10 text-center shadow-lg">
+    <h1 class="text-4xl font-bold mb-2">김현호</h1>
+    <p class="text-xl">데이터 속에서 ‘진짜 나’를 찾아내는 AI 기반 개발자</p>
+    <div class="mt-4">
+      <a href="mailto:rlagusgh2199@naver.com" class="mx-2 hover:underline">📧 rlagusgh2199@naver.com</a>
+      <a href="https://github.com/rlagusgh" class="mx-2 hover:underline">💻 GitHub</a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 py-12">
+    <section class="mb-16">
+      <h2 class="text-3xl font-semibold mb-4 text-purple-600">About Me</h2>
+      <p class="mb-4">저는 사람의 행동 데이터를 기술로 분석하고, 이를 통해 ‘보이지 않는 성향’을 드러내는 데에 흥미를 느끼는 개발자입니다. 단순히 기능을 구현하는 것을 넘어, 기술이 인간을 더 깊이 이해하도록 만드는 데에 집중하고 있습니다.</p>
+      <p class="mb-4">AI와 데이터 분석의 교차점에서 사용자 중심의 서비스를 구현하는 것을 목표로 하고 있으며, Python과 Java를 활용해 백엔드 로직을 안정적으로 설계하고, React를 통해 직관적인 인터페이스를 만들어내는 데 자신이 있습니다.</p>
+      <p>이번 <strong>Real MBTI 프로젝트</strong>를 통해 행동 데이터를 기반으로 한 ‘진짜 성향 분석 시스템’을 구현하면서, 생성형 AI의 활용 가능성과 데이터 분석의 가치에 대해 깊이 탐구했습니다.</p>
+    </section>
+
+    <section class="mb-16">
+      <h2 class="text-3xl font-semibold mb-4 text-purple-600">Skills</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="p-6 bg-white rounded-2xl shadow">
+          <h3 class="text-xl font-bold mb-2">Frontend</h3>
+          <p>JavaScript, TypeScript, React</p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow">
+          <h3 class="text-xl font-bold mb-2">Backend</h3>
+          <p>MySQL, Java, Python</p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow">
+          <h3 class="text-xl font-bold mb-2">DevOps & Tools</h3>
+          <p>Git, Figma</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-16">
+      <h2 class="text-3xl font-semibold mb-4 text-purple-600">Project: Real MBTI</h2>
+      <h3 class="text-2xl font-semibold mb-2 text-pink-500">문제 정의</h3>
+      <p class="mb-6">기존 MBTI 검사는 설문 응답에 의존하여 실제 행동과 성향이 다르게 나타나는 한계가 있었습니다. 사람들의 대화, 검색, 시청 등의 행동 데이터에는 ‘진짜 성향’이 담겨 있음에도 이를 분석해주는 시스템이 부족했습니다. Real MBTI는 생성형 AI를 활용하여 개인의 행동 데이터를 분석하고, 설문 없이도 행동 기반의 성향 리포트를 자동으로 생성하는 시스템입니다.</p>
+
+      <h3 class="text-2xl font-semibold mb-2 text-pink-500">아키텍처 / 설계</h3>
+      <ul class="list-disc list-inside mb-6">
+        <li>Python으로 카카오톡, 유튜브, SNS 데이터를 정제하고 통합</li>
+        <li>NLP와 규칙 기반 알고리즘으로 감정, 키워드, 성향 축 점수(E/I, S/N, F/T, J/P) 계산</li>
+        <li>GPT API를 통해 자연어 리포트 자동 생성</li>
+      </ul>
+
+      <h3 class="text-2xl font-semibold mb-2 text-pink-500">핵심 기능</h3>
+      <div class="space-y-6">
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h4 class="text-xl font-bold mb-2">1️⃣ 행동 기반 MBTI 분석</h4>
+          <p>Python 스크립트로 대화 및 시청 데이터를 수집하고 NLP를 통해 감정과 키워드를 추출합니다. 이후 규칙 기반 알고리즘이 성향 점수를 계산하여 행동 데이터를 기반으로 한 MBTI를 생성합니다.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h4 class="text-xl font-bold mb-2">2️⃣ 생성형 AI 리포트 자동화</h4>
+          <p>GPT API가 분석된 데이터를 자연어로 해석하여 개인 맞춤형 리포트를 자동으로 생성합니다.</p>
+        </div>
+      </div>
+
+      <h3 class="text-2xl font-semibold mt-10 mb-2 text-pink-500">나의 역할 및 기여</h3>
+      <ul class="list-disc list-inside mb-6">
+        <li>Python 기반 데이터 수집 및 전처리 로직 구현</li>
+        <li>NLP 및 감정 분석 알고리즘 설계 및 테스트</li>
+        <li>GPT API 연동을 통한 자동 리포트 생성 기능 구현</li>
+        <li>시스템 아키텍처 및 백엔드 통신 구조 설계</li>
+      </ul>
+
+      <h3 class="text-2xl font-semibold mb-2 text-pink-500">결과 및 성과</h3>
+      <ul class="list-disc list-inside mb-6">
+        <li>데이터 기반 MBTI 생성 성공 — 설문 없이 행동 데이터로 성향 리포트 생성</li>
+        <li>AI 리포트 자동화율 100% 달성 — GPT 기반 자연어 리포트 완성</li>
+        <li>확장 가능성 확보 — HR, 콘텐츠 추천, 상담 등 다양한 산업적 응용 가능성</li>
+      </ul>
+
+      <h3 class="text-2xl font-semibold mb-2 text-pink-500">회고</h3>
+      <h4 class="font-bold">배운 점</h4>
+      <p class="mb-4">데이터 전처리와 NLP 분석의 중요성을 체득하고, 생성형 AI의 응답 제어 기술을 깊이 이해했습니다.</p>
+      <h4 class="font-bold">개선점</h4>
+      <p>React 기반 시각화 대시보드 추가 및 음성·이미지 데이터 통합을 통한 분석 정확도 향상을 계획 중입니다.</p>
+    </section>
+  </main>
+
+  <footer class="text-center py-8 bg-gray-100 border-t">
+    <p>© 2025 김현호 | Real MBTI Portfolio</p>
+  </footer>
+</body>
+</html>
