@@ -117,28 +117,41 @@
   </div>
 </section>
 
-<!-- ================= ARCH ================= -->
-<section class="bg-slate-900 py-20">
-  <div class="max-w-6xl mx-auto px-6">
-    <h2 class="text-3xl font-bold mb-6">🧠 시스템 아키텍처</h2>
-    <p class="text-slate-400 mb-6">
-      TXT → Feature Extraction → MBTI Scoring → Confidence → LLM Report
-    </p>
-    <img src="./assets/architecture.png" class="rounded-xl border border-slate-700" />
-  </div>
-</section>
-
 <!-- ================= SCREENSHOTS ================= -->
 <section id="screenshots" class="max-w-6xl mx-auto px-6 py-20">
-  <h2 class="text-3xl font-bold mb-10">📸 결과 화면</h2>
+  <h2 class="text-3xl font-bold mb-12">📸 Real MBTI 데모 흐름</h2>
 
-  <div class="grid md:grid-cols-2 gap-8">
-    <img src="./assets/overview.png" class="rounded-xl border border-slate-700"/>
-    <img src="./assets/behavior.png" class="rounded-xl border border-slate-700"/>
-    <img src="./assets/report.png" class="rounded-xl border border-slate-700"/>
-    <img src="./assets/persona.png" class="rounded-xl border border-slate-700"/>
+  <!-- STEP 1 -->
+  <div class="mb-16">
+    <h3 class="text-xl font-semibold mb-4">STEP 1. 분석 대상 설정</h3>
+    <p class="text-slate-400 mb-4">
+      카카오톡 대화 내보내기 파일(.txt)을 업로드하고 분석을 시작합니다.
+    </p>
+    <img src="./assets/step1_input.png"
+         class="rounded-xl border border-slate-700" />
+  </div>
+
+  <!-- STEP 2 -->
+  <div class="mb-16">
+    <h3 class="text-xl font-semibold mb-4">STEP 2. 행동 기반 분석 결과</h3>
+    <p class="text-slate-400 mb-4">
+      실제 대화에서 추출한 행동 지표를 기반으로 MBTI를 분석합니다.
+    </p>
+    <img src="./assets/step2_behavior.png"
+         class="rounded-xl border border-slate-700" />
+  </div>
+
+  <!-- STEP 3 -->
+  <div>
+    <h3 class="text-xl font-semibold mb-4">STEP 3. AI 리포트 & 페르소나</h3>
+    <p class="text-slate-400 mb-4">
+      생성형 AI가 분석 결과를 자연어 리포트와 페르소나로 정리합니다.
+    </p>
+    <img src="./assets/step3_report.png"
+         class="rounded-xl border border-slate-700" />
   </div>
 </section>
+
 
 <!-- ================= RETROSPECT ================= -->
 <section class="bg-slate-900 py-20">
